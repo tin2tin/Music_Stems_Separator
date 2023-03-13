@@ -60,7 +60,11 @@ class AudioSeparationOperator(bpy.types.Operator):
                     "Installing spleeter module failed! Try to run Blender as administrator.",
                 )
                 return {"CANCELLED"}
-        audio_file = audio_strip.sound.filepath
+        audio_file = os.path.abspath(audio_strip.sound.filepath)
+        if not os.path.isfile(audio_file):
+            self.report({"INFO"}, "The path of the source file needs to be absolute and not relative.")
+            print("The path of the source file needs to be absolute and not relative.")
+            return {"CANCELLED"}
         out_dir = os.path.dirname(audio_file)
         audio_file_clean = Path(audio_file).stem
         if not os.path.isdir(out_dir):
