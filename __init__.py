@@ -1,10 +1,10 @@
 bl_info = {
-    "name": "Music Stem Separator",
+    "name": "Music Stems Separator",
     "description": "Split music into stems",
     "author": "tintwotin",
     "version": (1, 0),
     "blender": (3, 40, 0),
-    "location": "VSE > Sidebar > Audio > Music Stem Separator",
+    "location": "VSE > Sidebar > Audio > Music Stems Separator",
     "category": "Sequencer",
     "wiki_url": "",
     "tracker_url": "",
