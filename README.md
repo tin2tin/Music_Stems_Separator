@@ -2,7 +2,9 @@
 A music stems separator for the Blender Video Sequence Editor using Spleeter.
 
 ## Installation and first run
-Run Blender as administrator before installing the add-on and the first run, since all the python modules needs to be installed. This can be a bit time-consuming, so grab a coffee. 
+Run Blender as administrator before installing the add-on and the first run, since all the python modules need to be installed. This can be a bit time-consuming, so grab a coffee. 
+
+Ffmpeg needs to be installed in PATH for it to work. On Windows this python script can be run to do it automatically: https://github.com/Crozzers/ffmpeg-installer
 
 ## Tutorial
 
