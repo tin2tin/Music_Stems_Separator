@@ -6,6 +6,8 @@ Run Blender as administrator before installing the add-on and the first run, sin
 
 Ffmpeg needs to be installed in PATH for it to work. On Windows this python script can be run to do it automatically: https://github.com/Crozzers/ffmpeg-installer
 
+If ffmpeg can't be found after adding it to PATH, use this add-on to uninstall ffmpeg(type it in): https://github.com/amb/blender_pip
+
 ## Tutorial
 
 https://user-images.githubusercontent.com/1322593/224706963-105da105-577b-43f8-8189-3cb85aa449dd.mp4
