@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+
+# Manifest file for the "Music Stems Separator" Blender extension
+id = "music_stems_separator"
+version = "1.0.0"
+name = "Music Stems Separator"
+tagline = "Split music into stems"
+maintainer = "tintwotin"
+type = "add-on"
+
+# Optional link to documentation, support, source files, etc
+# website = ""
+
+# Optional list defined by Blender and server
+tags = ["Sequencer", "Audio"]
+
+blender_version_min = "3.4.0"
+
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
